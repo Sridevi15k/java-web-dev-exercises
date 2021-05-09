@@ -25,14 +25,12 @@ public class HashMapPractice {
                 students.put(newStudentId, newStudent);
             }
         } while (newStudent != null);
-
         System.out.println("\n Class roster: ");
         for (Map.Entry<Integer, String> student : students.entrySet()) {
             System.out.println(student.getKey() + " (" + student.getValue() + ")");
 
         }
-
-
+        input.close();
         System.out.println("Student ID: " + newStudentId);
         System.out.println("Student name: " + newStudent);
 
