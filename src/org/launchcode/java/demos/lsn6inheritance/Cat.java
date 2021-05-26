@@ -12,6 +12,10 @@ public class Cat {
     public Cat (double aWeight) {
         weight = aWeight;
     }
+    // No argument constructor that has access to sub-class HouseCat
+    public Cat() {
+        weight = 13;
+    }
 
     /**** Getters and Setters ****/
 
